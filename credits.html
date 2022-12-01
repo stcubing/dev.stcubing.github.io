@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stcubing - credits</title>
+    <title>credits</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/cursor.css">
 
@@ -30,12 +30,32 @@
     <img src="assets/corner wave.png" class="wave rellax" data-rellax-speed="-6">
 
     <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
+        <div class="loaderoverlay"></div>
+        <div class="loaderbg">
+            <div class="loadercenter">
+                <span class="loader">
+                </span>
+            </div>
+        </div>
+        
     </div>
     <script>
-        $(window).on("load", function() {
-            $(".loader-wrapper").fadeOut("medium");
+        window.addEventListener("load", function() {
+            const loader = document.querySelector(".loader-wrapper");
+
+            const putting = document.querySelector(".putting");
+            const yourideasin = document.querySelector(".yourideasin");
+            const motion = document.querySelector(".motion");
+
+            console.log('loaded');
+
+            loader.className += " loadhide";
+
+            putting.className += " in1";
+            yourideasin.className += " in2";
+            motion.className += " in3";
         })
+
     </script>
     <a onclick="history.go(-1)">
         <div class="material-symbols-outlined back">
@@ -45,11 +65,14 @@
     <a href="/index.html">
         <lottie-player class="logo" src="https://lottie.host/9d4f6bc2-580f-4c0e-b823-332e5b92e60b/qqpY7sNvO2.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
     </a>
-    <div class="container">
+    <div class="creditstext">
+        <h2>Credits</h2>
+        <p>Thanks to these people for contributing towards the design, development and overall creation of this website! This wouldn't have been possible without them.</p>
+    </div>
+    <div class="creditscontainer">
         <section id="credits">
             <div class="wrapper">
-                <h2>Credits</h2>
-                <p>Thanks to these people for contributing towards the design, development and overall creation of this website! This wouldn't have been possible without them.</p>
+                
 
                 <div class="creditsgridgrid">
                     <div class="creditsgrid">
@@ -58,7 +81,7 @@
                                 <img src="assets/friends/mechetle.png" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">Mechetle</h5>
-                                    <p class="cell-l">This website would literally not exist without his generosity and sheer intelligence.</p>
+                                    <p class="cell-l">Undoubtedly the greatest individual ever. He was crucial in bringing this site to life.</p>
                                 </div>
                             </a>
                         </div>
@@ -67,7 +90,7 @@
                                 <img src="assets/friends/jasonnel.jpg" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">Jasonnel</h5>
-                                    <p class="cell-l">Did what Mechetle did when I didnt want to disturb Mechetle for the 5th time in 1 hour.</p>
+                                    <p class="cell-l">Helped out massively with hosting and impulse-buying the domain.</p>
                                 </div>
                             </a>
                         </div>
@@ -76,7 +99,7 @@
                                 <img src="assets/friends/squiddylion.jpg" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">Squiddylion</h5>
-                                    <p class="cell-l">Did what Jasonnel did when Jasonnel was not in vc.</p>
+                                    <p class="cell-l">Gave me useful pointers in web development and helped me design and code.</p>
                                 </div>
                             </a>
                         </div>
@@ -89,12 +112,21 @@
                                 </div>
                             </a>
                         </div>
+                        <div id="man">
+                            <a href="https://www.youtube.com/@TheDinoKingOfficial" target="_blank" class="guy">
+                                <img src="assets/friends/thedinoking.jpg" class="creditimage cell-j">
+                                <div class="guytext">
+                                    <h5 class="cell-k">Dino Motion</h5>
+                                    <p class="cell-l">Didn't know he knew web dev until he easily provided a solution to an annoying bug lol.</p>
+                                </div>
+                            </a>
+                        </div>
                         <div id="advanceds">
                             <a href="https://www.youtube.com/@Advanceds" target="_blank" class="guy">
                                 <img src="assets/friends/advanceds.png" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">Advanceds</h5>
-                                    <p class="cell-l">Contains eyes.</p>
+                                    <p class="cell-l">Helped in the design stage and provided ideas (he is very loud).</p>
                                 </div>
                             </a>
                         </div>
@@ -103,16 +135,16 @@
                                 <img src="assets/friends/pureframe.jpg" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">PureFrame</h5>
-                                    <p class="cell-l">he </p>
+                                    <p class="cell-l">Gave thoughts on what he thought worked and didn't in the initial design of the site. </p>
                                 </div>
                             </a>
                         </div>
                         <div id="man">
-                            <a href="https://www.youtube.com/@TheDinoKingOfficial" target="_blank" class="guy">
-                                <img src="assets/friends/thedinoking.jpg" class="creditimage cell-j">
+                            <a href="https://www.youtube.com/@arialfx" target="_blank" class="guy">
+                                <img src="assets/friends/arialfx.jpg" class="creditimage cell-j">
                                 <div class="guytext">
-                                    <h5 class="cell-k">Dino Motion</h5>
-                                    <p class="cell-l">be the funny</p>
+                                    <h5 class="cell-k">arialfx</h5>
+                                    <p class="cell-l">The catalyst and inspiration for me in learning After Effects.</p>
                                 </div>
                             </a>
                         </div>
@@ -121,7 +153,7 @@
                                 <img src="assets/man.jpg" class="creditimage cell-j">
                                 <div class="guytext">
                                     <h5 class="cell-k">man.jpg</h5>
-                                    <p class="cell-l">man.jpg</p>
+                                    <p class="cell-l">Genuinely the best placeholder.</p>
                                 </div>
                             </a>
                         </div>
