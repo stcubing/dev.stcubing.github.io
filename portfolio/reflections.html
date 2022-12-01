@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reflections</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/cursor.css">
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/assets/icons/white.ico" media="(prefers-color-scheme: dark">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/black.ico" media="(prefers-color-scheme: light">
+        
+    <!-- <div class="cursor"></div> -->
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loaderbg">
+            <div class="loadercenter">
+                <span class="loader">
+                </span>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load", function() {
+            const loader = document.querySelector(".loader-wrapper");
+            console.log('loaded');
+            loader.className += " loadhide";
+
+        })
+
+    </script>
+    <a onclick="history.go(-1)">
+        <div class="material-symbols-outlined back">
+            arrow_back
+        </div>
+    </a>
+    <a href="/index.html">
+        <lottie-player class="logo" src="https://lottie.host/9d4f6bc2-580f-4c0e-b823-332e5b92e60b/qqpY7sNvO2.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </a>
+    <section>
+        <div class="header" id="he">
+            <div class="headertext" style="color:#fff">
+                <!-- change details here -->
+                <h2>Reflections</h2>
+                <div class="projoutline">
+                    <h5>Project Outline</h5>
+                    <body>A 4-segment motion graphics loop inspired by Austin Bauwens with music by Creo.
+                    </body>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <!-- change vid -->
+        <div class="showcasevidwrapper">
+            <video src="/assets/videos/reflections.mp4" width="800" class="showcasevid" controls="1"></video>
+        </div>
+        <!-- <iframe width="800" height="450" frameBorder="0" allow="fullscreen" src="https://www.youtube.com/embed/xQXQ-WJUW6Q" class="showcasevid"> -->
+        <!-- </iframe> -->
+        <div class="desc">
+            <!-- add a description on how i made this, etc -->
+            <p>
+                This motion loop was influenced by the animated loops by
+                <a href="https://twitter.com/austinbauwens" target="_blank">Austin Bauwens</a>
+                and was designed with the Geometry Dash level 
+                <a href="https://www.youtube.com/watch?v=zAr3ryGFQD0" target="_blank">'Cloud Nine'</a>
+                 in mind in terms of design and energy.
+            </p>
+        </div>
+        <div class="bts">
+            <h5>Behind the scenes</h5>
+            <!-- add bts gif here -->
+            <video src="/assets/bts/reflections_bts.webm" autoplay loop oncontextmenu="return false;"></video>
+            <div class="details">
+                <h5>Metadata</h5>
+                <ul>
+                    <li><span class="material-symbols-outlined">crop_free</span><span class="tag">Resolution</span>&nbsp;1080x1080 24fps</li>
+                    <li><span class="material-symbols-outlined">person_2</span><span class="tag">Client</span>&nbsp;Personal</li>
+                    <li><span class="material-symbols-outlined">event_available</span><span class="tag">Finished</span>&nbsp;August 25th</li>
+                    <li><span class="material-symbols-outlined">schedule</span><span class="tag">Time</span>&nbsp;5 days</li>
+                    <li><span class="material-symbols-outlined">widgets</span><span class="tag">Software</span>&nbsp;Adobe After Effects</li>
+                    <li><span class="material-symbols-outlined">headphones</span><span class="tag">Music</span>&nbsp;Creo - Reflections</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="button-row">
+       
+            <a href="/index.html" class="button">Ok i dont wanna look at this anymore</a>
+        </div> -->
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerleft">
+                <div class="footertop">
+                    <div class="footerleft">
+                        <h2>Interested?</h2>
+                        <p class="section-text">Get in touch and let's put things in motion.</p>
+                    </div>
+                    <div class="footerright">
+                        <div class="socials">
+                            <a href="https://twitter.com/stcubingg" target="blank">
+                                <img src="/assets/icons/twitter.svg">
+                            </a>
+                            <a href="https://discord.gg/br8XEMcHQF" target="blank">
+                                <img src="/assets/icons/discord.svg">
+                            </a>
+                            <a href="https://youtube.com/stcubing" target="blank">
+                                <img src="/assets/icons/youtube.svg">
+                            </a>
+                            <a href="https://behance.net/stcubing" target="blank">
+                                <img src="/assets/icons/behance.svg">
+                            </a>
+                            <a href="mailto:scubbing@gmail.com" target="blank">
+                                <img src="/assets/icons/mail.svg">
+                            </a>
+                            <a href="https://payhip.com/stcubing" target="blank">
+                                <img src="/assets/icons/payhip.svg">
+                            </a>
+                        </div>
+                        <br>
+                        <div class="footerbottomright">
+                            <a href="credits.html">Credits</a>
+                            <p>Copyright ©️ stcubing 2023</p>
+                        </div>
+                        <!-- <img src=""> -->
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <script>
+        new kursor({
+            type: 4,
+            removeDefaultCursor: true
+        })
+    </script>
+</body>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stcubing</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/cursor.css">
+
+    <!-- <script src="../main.js"></script> -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/assets/icons/white.ico" media="(prefers-color-scheme: dark">
+    <link rel="icon" type="image/x-icon" href="/assets/icons/black.ico" media="(prefers-color-scheme: light">
+        
+    <!-- <div class="cursor"></div> -->
+</head>
+<body>
+    <img src="/assets/corner wave.png" class="wave rellax" data-rellax-speed="-15">
+    <div class="loader-wrapper">
+        <div class="loaderbg">
+            <div class="loadercenter">
+                <span class="loader">
+                </span>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("load", function() {
+            const loader = document.querySelector(".loader-wrapper");
+            console.log('loaded');
+            loader.className += " loadhide";
+
+        })
+
+    </script>
+    <a onclick="history.go(-1)">
+        <div class="material-symbols-outlined back">
+            arrow_back
+        </div>
+    </a>
+    <a href="/index.html">
+        <lottie-player class="logo" src="https://lottie.host/9d4f6bc2-580f-4c0e-b823-332e5b92e60b/qqpY7sNvO2.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    </a>
+
+    <section id="works">
+        <div class="container">
+            <h2>Motion design</h2>
+            <p>More recent motion stuff.</p>
+            <div class="bannerlist">
+                <a href="https://www.youtube.com/watch?v=ZLVwk0_AZuI" target="_blank">
+                    <div id="banner" class="md1"><h3>Flodxz's GFX Pack Promo</h3></div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=w2QWJmFOpWo" target="_blank">
+                    <div id="banner" class="md2"><h3>MangoPlayz Stream Screens</h3></div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=lwOHaMAy98E" target="_blank">
+                    <div id="banner" class="md3"><h3>ItsOasis Stream Screens</h3></div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=bcV5kzL7b2k" target="_blank">
+                    <div id="banner" class="md4"><h3>InstaAE Lower Thirds</h3></div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=gUuq3IBXKwo" target="_blank">
+                    <div id="banner" class="md5"><h3>MinuteTech Stream Screens</h3></div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=Fy0sXpUx220" target="_blank">
+                    <div id="banner" class="md6"><h3>Moment Typography</h3></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerleft">
+                <div class="footertop">
+                    <div class="footerleft">
+                        <h2>Interested?</h2>
+                        <p class="section-text">Get in touch and let's put things in motion.</p>
+                    </div>
+                    <div class="footerright">
+                        <div class="socials">
+                            <a href="https://twitter.com/stcubingg" target="blank">
+                                <img src="/assets/icons/twitter.svg">
+                            </a>
+                            <a href="https://discord.gg/br8XEMcHQF" target="blank">
+                                <img src="/assets/icons/discord.svg">
+                            </a>
+                            <a href="https://youtube.com/stcubing" target="blank">
+                                <img src="/assets/icons/youtube.svg">
+                            </a>
+                            <a href="https://behance.net/stcubing" target="blank">
+                                <img src="/assets/icons/behance.svg">
+                            </a>
+                            <a href="mailto:scubbing@gmail.com" target="blank">
+                                <img src="/assets/icons/mail.svg">
+                            </a>
+                            <a href="https://payhip.com/stcubing" target="blank">
+                                <img src="/assets/icons/payhip.svg">
+                            </a>
+                        </div>
+                        <br>
+                        <div class="footerbottomright">
+                            <a href="../credits.html">Credits</a>
+                            <p>Copyright ©️ stcubing 2023</p>
+                        </div>
+                        <!-- <img src=""> -->
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    <script>
+        var rellax = new Rellax('.rellax');
+        new kursor({
+            type: 4,
+            removeDefaultCursor: true
+        })
+    </script>
+</body>
