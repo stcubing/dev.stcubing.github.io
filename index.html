@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stcubing</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/cursor.css">
+    <!-- <link rel="stylesheet" href="/cursor.css"> -->
 
     <script src="/main.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -177,6 +177,7 @@
             }
             document.querySelector(".overlay").style.opacity = opacity1;
             document.querySelector(".wave").style.opacity = opacity2;
+            document.querySelector("#downarrow").style.opacity = opacity1;
         
         });
 
@@ -229,13 +230,14 @@
                 <h1 class="motion">motion.</h1>
 
             </div>
-            <a href="#aboutme">
-                <div class="material-symbols-outlined" id="downarrow">
-                    arrow_downward
-                </div>
-            </a>
         </section>
-    
+    </div>
+        <a href="#aboutme" class="titlearrowwrapper">
+            <div class="material-symbols-outlined" id="downarrow">
+                arrow_downward
+            </div>
+        </a>
+    <div class="container">
         <section id="aboutme">
             <div data-aos="fade-up">
                 <div class="aboutmemain">
